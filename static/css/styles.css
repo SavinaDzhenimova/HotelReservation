@@ -181,8 +181,6 @@ button:hover {
     background-color: #cfcbca;
 }
 
-/* Questioner Solution */
-
 label {
     display: block;
     margin-top: 30px;
@@ -201,8 +199,6 @@ input {
     font-size: 14px;
     font-weight: 300;
 }
-
-/* Offerer Solution */
 
 label {
     display: block;
@@ -287,8 +283,6 @@ button:hover {
     max-width: 90px;
     margin-right: 20px;
 }
-
-/* Verifier Solution */
 
 .confirm-reservation {
     height: 80%;

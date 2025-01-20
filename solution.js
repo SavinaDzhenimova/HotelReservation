@@ -22,7 +22,7 @@ function cleanData(e) {
     changeContent('search-form-content');
 }
 
-/* Questioner Solution */
+/* Search form */
 
 changeContent('search-form-content');
 document.querySelector('#search-form-button').addEventListener('click', (e) => searchFormData(e));
@@ -43,7 +43,7 @@ function searchFormData(e) {
     }
 }
 
-/* Offerrer Solution */
+/* Our offers */
 
 document.querySelector('#search-back-btn').addEventListener('click', (e) => fillSearchForm(e));
 
@@ -82,7 +82,7 @@ function findRoom(e) {
     changeContent('guest-details-form-content');
 }
 
-/* Admin Solution */
+/* Guest details */
 
 document.querySelector('#guest-details-back-btn').addEventListener('click', (e) => fillRoomForm(e));
 
@@ -120,7 +120,7 @@ function fillConfirmReservationData(customReservation) {
     document.querySelector('.confirm-reservation #guest-data-out').textContent = `Date-out: ${customReservation.endDate}`;
 }
 
-/* Verifier Solution */
+/* Confirm reservation */
 
 document.querySelector('#confirm-back-btn').addEventListener('click', (e) => getBackToPersonalData(e));
 
